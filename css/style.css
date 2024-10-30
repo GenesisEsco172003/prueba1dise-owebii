@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Shojumaru&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+:root {
+	--color-general:##999;
+	--color-titulos:#29373c;
+	--fondo-gris:#f9faf2;
+	--color-footer:#f49f28;
+	
+}
+
+
+.navbar-brand{
+	font-family: "Shojumaru" ;
+	color:#FFFFFF;
+}
+.nav-item{
+	font-family:"Namum";
+}
+
+#hero-title{
+	background-image: url("../img/bg-hero.png");
+background-size: cover;
+		background-position: top center;
+	width: auto;
+	padding: 300px;
+	
+}
+h1{
+	font-family: "Shojumaru" ;
+	font-size: 60px;
+	color: #E49A10;
+	text-align: center;
+
+
+	
+}
+h3{
+	font-family:"Nanum Pen Script", cursive;
+	text-align: center;
+	font-size: 40px;
+	color: #FFFFFF;
+	padding-bottom: 10px;
+}
+
+.nav-link.btn{
+	background-color: #E49A10;
+	padding: 5px !important;
+	width: 100px;
+	margin-left: 350px;
+
+	
+}
+
+#offers{
+padding: 200px;
+}
+
+.subtitle{
+	font-family:"Nanum Pen Script", cursive;
+	color: var(--color-titulos);
+	font-size: 55px;
+	text-align: center;
+  padding-bottom: 10px
+	
+}
+.otitulo{
+	font-family:"Nanum Pen Script", cursive;
+	color:var(--color-titulos);
+	font-size: 30px;
+	padding-bottom: 20px;
+	
+}
+
+#offers img{
+	width: 80px;
+	margin-left: 150px;
+	padding-bottom: 20px;
+}
+h4{
+	font-family:"Nanum Pen Script", cursive;
+	text-align: center;
+	font-size: 25px;
+	color: var(--color-general);
+	padding-bottom: 10px;
+	
+}
+#offers p{
+	
+	text-align: center;
+	color:var(--color-general);
+	letter-spacing:normal;
+
+}
+#faq{
+	background-color: var(--fondo-gris);
+	padding: 200px;
+}
+
+#faq p{
+	text-align:left;
+	color:var(--color-general);
+	letter-spacing:normal;
+	margin-left: 100px;
+	
+
+	
+}
+#faq h4{
+margin-right: 150px;
+}
+#faq.nav-link.btn{
+	background-color:#000000;
+	padding: 5px !important;
+	width: 100px;
+	margin-left: 350px;
+	color: #FFFFFF;
+
+	
+}
+
+#services{
+	padding: 100px;
+}
+#services img{
+	width: 80px;
+	margin-left: 150px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	
+}
+#services p{
+	text-align: center;
+  padding: 20px;
+}
+
+footer{
+	background-color: var(--color-footer);
+	padding: 50px;
+	
+	
+}
+footer img{
+	width: 400px;
+	margin-left: 450px;
+padding-bottom: 30px;
+	
+}
+footer p{
+	text-align: center;
+}
+
